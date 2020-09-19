@@ -364,6 +364,7 @@ a.main-button:hover {
   transition: all 0.3s ease 0s;
 }
 
+
 button.main-button:hover {
   background-color: #ff589e;
 }*/
@@ -415,6 +416,7 @@ site-btn:hover {
   width: calc(100% - 4px);
   height: calc(100% - 4px);
   background: #fff;
+
   top: 2px;
   left: 2px;
   z-index: -1;
@@ -439,8 +441,6 @@ site-btn:hover {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e2bce', endColorstr='#2dd3aa', GradientType=1);
   /* IE6-9 */
 }
-
-
 
 /* 
 ---------------------------------------------
@@ -718,7 +718,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/template.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
@@ -1515,8 +1515,9 @@ footer
 --------------------------------------------- 
 */
 footer {
-  /*background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);*/
-  background-image: url(../images/background.jpg);
+ /* background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);*/
+  padding-top: 30px;
+  background-image: url(../images/template.jpg);
   padding-top: 30px;
   background-repeat: no-repeat;
   background-position: center center;
